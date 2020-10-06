@@ -37,6 +37,10 @@
 }, {
   "@id" : "http://www.moonshot.ceo/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "IEBrain"
+  } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"
   } ]
