@@ -134,7 +134,7 @@
     "id" : "78",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "33",
     "type" : "rdfs:Literal"
   }, {
     "id" : "86",
@@ -284,7 +284,7 @@
     "id" : "249",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "32",
+    "id" : "35",
     "type" : "owl:Class"
   }, {
     "id" : "252",
@@ -308,7 +308,7 @@
     "id" : "138",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "34",
+    "id" : "32",
     "type" : "owl:Thing"
   }, {
     "id" : "259",
@@ -365,7 +365,7 @@
     "id" : "74",
     "type" : "owl:Class"
   }, {
-    "id" : "384",
+    "id" : "385",
     "type" : "owl:unionOf"
   }, {
     "id" : "395",
@@ -374,7 +374,7 @@
     "id" : "165",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "385",
+    "id" : "386",
     "type" : "owl:unionOf"
   }, {
     "id" : "237",
@@ -419,7 +419,7 @@
     "id" : "140",
     "type" : "owl:Class"
   }, {
-    "id" : "386",
+    "id" : "387",
     "type" : "owl:Class"
   }, {
     "id" : "168",
@@ -449,7 +449,7 @@
     "id" : "101",
     "type" : "owl:Class"
   }, {
-    "id" : "277",
+    "id" : "272",
     "type" : "owl:Class"
   }, {
     "id" : "407",
@@ -515,7 +515,7 @@
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "287",
+    "id" : "283",
     "type" : "owl:unionOf"
   }, {
     "id" : "55",
@@ -757,7 +757,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "35",
+    "id" : "33",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1391,12 +1391,12 @@
     "superClasses" : [ "78" ]
   }, {
     "instances" : 0,
-    "union" : [ "162", "221", "173", "222", "223" ],
+    "union" : [ "162", "221", "222", "173", "223" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "230"
   }, {
     "instances" : 0,
-    "union" : [ "162", "221", "222", "173", "223" ],
+    "union" : [ "162", "221", "173", "222", "223" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "231"
   }, {
@@ -1406,7 +1406,7 @@
     "id" : "232"
   }, {
     "instances" : 0,
-    "union" : [ "222", "173" ],
+    "union" : [ "173", "222" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "233"
   }, {
@@ -1459,12 +1459,12 @@
     "id" : "161"
   }, {
     "instances" : 0,
-    "union" : [ "162", "221", "222", "173", "223" ],
+    "union" : [ "162", "221", "173", "222", "223" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "243"
   }, {
     "instances" : 0,
-    "union" : [ "162", "221", "222", "173", "223" ],
+    "union" : [ "162", "221", "173", "222", "223" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "176"
   }, {
@@ -1504,10 +1504,10 @@
     "instances" : 0,
     "union" : [ "162", "221", "222", "173" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "32"
+    "id" : "35"
   }, {
     "instances" : 0,
-    "union" : [ "162", "221", "222", "173", "223" ],
+    "union" : [ "162", "221", "173", "222", "223" ],
     "attributes" : [ "anonymous", "union" ],
     "id" : "252"
   }, {
@@ -1617,7 +1617,7 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "34",
+    "id" : "32",
     "label" : {
       "undefined" : "Thing"
     }
@@ -1680,7 +1680,7 @@
     "label" : {
       "IRI-based" : "InformationEntity"
     },
-    "subClasses" : [ "287", "39" ],
+    "subClasses" : [ "283", "39" ],
     "comment" : {
       "undefined" : "A piece of information, be it concretely realized or not."
     },
@@ -1980,7 +1980,7 @@
       "en" : "Region",
       "it" : "Regione"
     },
-    "subClasses" : [ "73", "188", "106", "370", "301", "386" ],
+    "subClasses" : [ "73", "188", "106", "370", "301", "387" ],
     "comment" : {
       "undefined" : "Any region in a dimensional space (a dimensional space is a maximal Region), which can be used as a value for a quality of an Entity . For example, TimeInterval, SpaceRegion, PhysicalAttribute, Amount, SocialAttribute are all subclasses of Region. \nRegions are not data values in the ordinary knowledge representation sense; in order to get patterns for modelling data, see the properties: representsDataValue and hasDataValue"
     },
@@ -1991,7 +1991,7 @@
     "instances" : 0,
     "union" : [ "16", "24" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "384"
+    "id" : "385"
   }, {
     "instances" : 0,
     "union" : [ "16", "24" ],
@@ -2009,7 +2009,7 @@
     "instances" : 0,
     "union" : [ "16", "24" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "385"
+    "id" : "386"
   }, {
     "instances" : 0,
     "union" : [ "16", "24" ],
@@ -2077,7 +2077,7 @@
       "en" : "Description",
       "it" : "Descrizione"
     },
-    "subClasses" : [ "255", "277", "406", "404", "407", "408", "213", "242", "354", "409", "211" ],
+    "subClasses" : [ "255", "272", "406", "404", "407", "408", "213", "242", "354", "409", "211" ],
     "comment" : {
       "undefined" : "A Description is a SocialObject that represents a conceptualization. \nIt can be thought also as a 'descriptive context' that uses or defines concepts in order to create a view on a 'relational context' (cf. Situation) out of a set of data or observations. \nFor example, a Plan is a Description of some actions to be executed by agents in a certain way, with certain parameters; a Diagnosis is a Description that provides an interpretation for a set of observed entities, etc."
     },
@@ -2196,7 +2196,7 @@
       "IRI-based" : "SpatioTemporalRegion"
     },
     "attributes" : [ "external" ],
-    "id" : "386",
+    "id" : "387",
     "superClasses" : [ "74" ]
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Classification",
@@ -2426,7 +2426,7 @@
       "undefined" : "A Description of the Situation, in terms of structure and function, held by an Entity for some reason.\nA design is usually accompanied by the rationales behind the construction of the designed Entity (i.e. of the reasons why a design is claimed to be as such). For example, the actual design (a Situation) of a car or of a law is based on both the specification (a Description) of the structure, and the rationales used to construct cars or laws.\nWhile designs typically describe entities to be constructed, they can also be used to describe 'refunctionalized' entities, or to hypothesize unknown functions. For example, a cradle can be refunctionalized as a flowerpot based on a certain home design."
     },
     "attributes" : [ "external" ],
-    "id" : "277",
+    "id" : "272",
     "superClasses" : [ "44" ]
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Diagnosis",
@@ -2868,30 +2868,6 @@
         "en" : "DCMI Type Vocabulary"
       }
     }, {
-      "iri" : "http://purl.org/dc/terms/IMT",
-      "baseIri" : "http://purl.org/dc/terms",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://purl.org/dc/terms/",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "http://www.iana.org/assignments/media-types/",
-          "type" : "iri"
-        } ]
-      },
-      "comment" : {
-        "en" : "The set of media types specified by the Internet Assigned Numbers Authority."
-      },
-      "labels" : {
-        "IRI-based" : "IMT",
-        "en" : "IMT"
-      }
-    }, {
       "iri" : "http://purl.org/dc/terms/DDC",
       "baseIri" : "http://purl.org/dc/terms",
       "annotations" : {
@@ -2914,6 +2890,30 @@
       "labels" : {
         "IRI-based" : "DDC",
         "en" : "DDC"
+      }
+    }, {
+      "iri" : "http://purl.org/dc/terms/IMT",
+      "baseIri" : "http://purl.org/dc/terms",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://purl.org/dc/terms/",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://www.iana.org/assignments/media-types/",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "The set of media types specified by the Internet Assigned Numbers Authority."
+      },
+      "labels" : {
+        "IRI-based" : "IMT",
+        "en" : "IMT"
       }
     }, {
       "iri" : "http://purl.org/dc/terms/UDC",
@@ -2958,30 +2958,6 @@
         "en" : "LCSH"
       }
     }, {
-      "iri" : "http://purl.org/dc/terms/MESH",
-      "baseIri" : "http://purl.org/dc/terms",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://purl.org/dc/terms/",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "http://www.nlm.nih.gov/mesh/meshhome.html",
-          "type" : "iri"
-        } ]
-      },
-      "comment" : {
-        "en" : "The set of labeled concepts specified by the Medical Subject Headings."
-      },
-      "labels" : {
-        "IRI-based" : "MESH",
-        "en" : "MeSH"
-      }
-    }, {
       "iri" : "http://purl.org/dc/terms/TGN",
       "baseIri" : "http://purl.org/dc/terms",
       "annotations" : {
@@ -3004,6 +2980,30 @@
       "labels" : {
         "IRI-based" : "TGN",
         "en" : "TGN"
+      }
+    }, {
+      "iri" : "http://purl.org/dc/terms/MESH",
+      "baseIri" : "http://purl.org/dc/terms",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://purl.org/dc/terms/",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://www.nlm.nih.gov/mesh/meshhome.html",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "The set of labeled concepts specified by the Medical Subject Headings."
+      },
+      "labels" : {
+        "IRI-based" : "MESH",
+        "en" : "MeSH"
       }
     }, {
       "iri" : "http://purl.org/dc/terms/NLM",
@@ -3101,7 +3101,7 @@
       "undefined" : "A concrete realization of an InformationObject, e.g. the written document containing the text of a law."
     },
     "attributes" : [ "external", "union" ],
-    "id" : "287",
+    "id" : "283",
     "superClasses" : [ "60" ]
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialAgent",
@@ -3432,7 +3432,7 @@
     "id" : "31",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "33",
+    "id" : "34",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "37",
@@ -3700,63 +3700,63 @@
     "type" : "rdf:Property"
   }, {
     "id" : "260",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "204",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "263",
+    "id" : "261",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "264",
-    "type" : "owl:allValuesFrom"
+    "id" : "262",
+    "type" : "owl:someValuesFrom"
   }, {
-    "id" : "270",
+    "id" : "265",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "271",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "272",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "273",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "274",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "275",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "276",
+    "id" : "266",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "270",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "280",
+    "id" : "271",
     "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "273",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "281",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "284",
     "type" : "owl:disjointWith"
   }, {
     "id" : "285",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "288",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "289",
-    "type" : "owl:disjointWith"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "251",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "52",
+    "id" : "290",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "290",
+    "id" : "52",
     "type" : "owl:objectProperty"
   }, {
     "id" : "291",
@@ -3766,7 +3766,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "293",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "294",
     "type" : "owl:allValuesFrom"
@@ -3793,10 +3793,10 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "307",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "308",
-    "type" : "owl:disjointWith"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "309",
     "type" : "owl:disjointWith"
@@ -3814,25 +3814,25 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "315",
-    "type" : "owl:disjointWith"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "316",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "317",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "318",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "319",
+    "id" : "318",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "320",
+    "id" : "319",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "322",
+    "id" : "321",
     "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "322",
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "323",
     "type" : "owl:allValuesFrom"
@@ -3841,15 +3841,15 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "325",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "26",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "347",
+    "id" : "104",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "104",
+    "id" : "347",
     "type" : "owl:objectProperty"
   }, {
     "id" : "356",
@@ -3871,7 +3871,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "361",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "353",
     "type" : "owl:objectProperty"
@@ -3901,10 +3901,10 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "373",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "374",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "375",
     "type" : "owl:objectProperty"
@@ -3925,12 +3925,12 @@
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "381",
-    "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "382",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "383",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "384",
     "type" : "owl:allValuesFrom"
   }, {
     "id" : "132",
@@ -3939,14 +3939,14 @@
     "id" : "334",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "387",
-    "type" : "owl:someValuesFrom"
-  }, {
     "id" : "388",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "389",
     "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "390",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "391",
     "type" : "owl:disjointWith"
@@ -3963,7 +3963,7 @@
     "id" : "340",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "278",
+    "id" : "274",
     "type" : "owl:objectProperty"
   }, {
     "id" : "304",
@@ -4086,7 +4086,7 @@
     "id" : "426",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "281",
+    "id" : "278",
     "type" : "owl:objectProperty"
   }, {
     "id" : "187",
@@ -4104,7 +4104,7 @@
     "id" : "428",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "266",
+    "id" : "287",
     "type" : "owl:objectProperty"
   }, {
     "id" : "336",
@@ -4113,28 +4113,28 @@
     "id" : "337",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "279",
+    "id" : "275",
     "type" : "owl:objectProperty"
   }, {
     "id" : "53",
     "type" : "owl:objectProperty"
   }, {
     "id" : "429",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "430",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "205",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "283",
+    "id" : "280",
     "type" : "owl:objectProperty"
   }, {
     "id" : "431",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "265",
+    "id" : "286",
     "type" : "owl:objectProperty"
   }, {
     "id" : "329",
@@ -4170,7 +4170,7 @@
     "id" : "440",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "268",
+    "id" : "288",
     "type" : "owl:objectProperty"
   }, {
     "id" : "441",
@@ -4275,7 +4275,7 @@
     "id" : "468",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "390",
+    "id" : "382",
     "type" : "owl:objectProperty"
   }, {
     "id" : "469",
@@ -4290,10 +4290,10 @@
     "id" : "344",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "261",
+    "id" : "263",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "321",
+    "id" : "320",
     "type" : "owl:objectProperty"
   }, {
     "id" : "346",
@@ -4344,7 +4344,7 @@
     "id" : "332",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "262",
+    "id" : "264",
     "type" : "owl:objectProperty"
   }, {
     "id" : "339",
@@ -4386,19 +4386,19 @@
     "id" : "492",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "269",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "305",
+    "id" : "289",
     "type" : "owl:objectProperty"
   }, {
     "id" : "25",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "282",
+    "id" : "305",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "286",
+    "id" : "279",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "282",
     "type" : "owl:objectProperty"
   }, {
     "id" : "348",
@@ -4487,20 +4487,9 @@
     "attributes" : [ "object", "external" ],
     "id" : "22"
   }, {
-    "iri" : "http://www.moonshot.ceo/ontology/image",
-    "baseIri" : "http://www.moonshot.ceo/ontology",
-    "range" : "10",
-    "label" : {
-      "IRI-based" : "image",
-      "en" : "has Image"
-    },
-    "domain" : "32",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "31"
-  }, {
     "iri" : "http://purl.org/dc/terms/modified",
     "baseIri" : "http://purl.org/dc/terms",
-    "range" : "35",
+    "range" : "33",
     "description" : {
       "en" : "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."
     },
@@ -4516,12 +4505,23 @@
       "IRI-based" : "modified",
       "en" : "Date Modified"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date on which the resource was changed."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "33"
+    "id" : "31"
+  }, {
+    "iri" : "http://www.moonshot.ceo/ontology/image",
+    "baseIri" : "http://www.moonshot.ceo/ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "image",
+      "en" : "has Image"
+    },
+    "domain" : "35",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "34"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isExpressedBy",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -4566,7 +4566,7 @@
       "IRI-based" : "date",
       "en" : "Date"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "A point or period of time associated with an event in the lifecycle of the resource."
     },
@@ -5047,7 +5047,7 @@
       "IRI-based" : "alternative",
       "en" : "Alternative Title"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "An alternative name for the resource."
     },
@@ -5069,7 +5069,7 @@
       "IRI-based" : "title",
       "en" : "Title"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "A name given to the resource."
     },
@@ -5136,7 +5136,7 @@
       "IRI-based" : "bibliographicCitation",
       "en" : "Bibliographic Citation"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "A bibliographic reference for the resource."
     },
@@ -5603,30 +5603,9 @@
       "undefined" : "is a"
     }
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
-    "inverse" : "261",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "100",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasParticipant",
-      "en" : "has participant",
-      "it" : "ha come partecipante"
-    },
-    "superproperty" : [ "26" ],
     "domain" : "16",
-    "subproperty" : [ "262" ],
-    "comment" : {
-      "undefined" : "A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'."
-    },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "260"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTimeIntervalOf",
@@ -5675,12 +5654,12 @@
       "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "263"
+    "id" : "261"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
-    "inverse" : "174",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "inverse" : "263",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "16",
+    "range" : "100",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5690,18 +5669,18 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasPart",
-      "en" : "has part",
-      "it" : "ha parte"
+      "IRI-based" : "hasParticipant",
+      "en" : "has participant",
+      "it" : "ha come partecipante"
     },
     "superproperty" : [ "26" ],
     "domain" : "16",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "264" ],
     "comment" : {
-      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
+      "undefined" : "A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'."
     },
-    "attributes" : [ "object", "allValues", "external", "transitive" ],
-    "id" : "264"
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "262"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -5724,25 +5703,45 @@
       "undefined" : "A datatype property that encodes values for a Region, e.g. a float for the Region Height."
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "270"
+    "id" : "265"
   }, {
-    "range" : "36",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
+    "inverse" : "204",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "106",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasTimeInterval",
+      "en" : "has time interval",
+      "it" : "ha intervallo temporale"
+    },
+    "superproperty" : [ "205" ],
     "domain" : "16",
+    "comment" : {
+      "en" : "The generic relation between events and time intervals."
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "266"
+  }, {
+    "range" : "24",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "271"
+    "id" : "267"
   }, {
     "range" : "39",
     "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "272"
-  }, {
-    "range" : "55",
-    "domain" : "44",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "273"
+    "id" : "268"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
+    "inverse" : "261",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "16",
     "annotations" : {
@@ -5764,7 +5763,7 @@
       "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
     },
     "attributes" : [ "object", "allValues", "external" ],
-    "id" : "274"
+    "id" : "269"
   }, {
     "iri" : "http://www.moonshot.ceo/ontology/providesServiceTo",
     "baseIri" : "http://www.moonshot.ceo/ontology",
@@ -5774,11 +5773,11 @@
     },
     "domain" : "223",
     "attributes" : [ "object", "external" ],
-    "id" : "275"
+    "id" : "270"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "277",
+    "range" : "272",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5798,19 +5797,24 @@
       "undefined" : "The relation between an Entity and a Description: a Description gives a unity to a Collection of parts (the components), or constituents, by assigning a Role to each of them in the context of a whole Object (the system).\nA same Entity can be given different descriptions, for example, an old cradle can be given a unifying Description based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot."
     },
     "attributes" : [ "object", "someValues", "external" ],
-    "id" : "276"
+    "id" : "271"
   }, {
     "iri" : "http://www.moonshot.ceo/ontology/hasMarketMap",
-    "inverse" : "278",
+    "inverse" : "274",
     "baseIri" : "http://www.moonshot.ceo/ontology",
     "range" : "119",
     "label" : {
       "IRI-based" : "hasMarketMap"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "240",
     "attributes" : [ "object", "external" ],
-    "id" : "267"
+    "id" : "273"
+  }, {
+    "range" : "24",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDefinedIn",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -5828,22 +5832,17 @@
       "en" : "is defined in",
       "it" : "è definito in"
     },
-    "superproperty" : [ "281" ],
+    "superproperty" : [ "278" ],
     "domain" : "3",
-    "subproperty" : [ "282", "283" ],
+    "subproperty" : [ "279", "280" ],
     "comment" : {
       "undefined" : "A relation between a Description and a Concept, e.g. a Workflow for a governmental Organization defines the Role 'officer', or 'the Italian Traffic Law defines the role Vehicle'."
     },
     "attributes" : [ "object", "someValues", "external" ],
-    "id" : "280"
-  }, {
-    "range" : "39",
-    "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "284"
+    "id" : "277"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
-    "inverse" : "286",
+    "inverse" : "282",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "23",
     "annotations" : {
@@ -5865,17 +5864,38 @@
       "undefined" : "A generic, relative spatial location, holding between any entities. E.g. 'the cat is on the mat', 'Omar is in Samarcanda', 'the wound is close to the femural artery'.\nFor 'absolute' locations, see SpaceRegion"
     },
     "attributes" : [ "object", "external" ],
-    "id" : "285"
+    "id" : "281"
   }, {
-    "range" : "24",
+    "range" : "55",
     "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "288"
+    "id" : "284"
   }, {
-    "range" : "44",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+    "inverse" : "174",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPart",
+      "en" : "has part",
+      "it" : "ha parte"
+    },
+    "superproperty" : [ "26" ],
     "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "289"
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
+    "comment" : {
+      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
+    },
+    "attributes" : [ "object", "allValues", "external", "transitive" ],
+    "id" : "285"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRoleOf",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -5900,31 +5920,6 @@
     },
     "attributes" : [ "object", "external" ],
     "id" : "251"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTask",
-    "inverse" : "53",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "72",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasTask",
-      "en" : "has task",
-      "it" : "ha come obiettivo"
-    },
-    "superproperty" : [ "46" ],
-    "domain" : "2",
-    "comment" : {
-      "undefined" : "A relation between roles and tasks, e.g. 'students have the duty of giving exams' (i.e. the Role 'student' hasTask the Task 'giving exams')."
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "52"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#actsThrough",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -5951,20 +5946,10 @@
     "attributes" : [ "object", "external" ],
     "id" : "290"
   }, {
-    "range" : "55",
-    "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "291"
-  }, {
-    "range" : "24",
-    "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "292"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
-    "inverse" : "174",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTask",
+    "inverse" : "53",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "3",
+    "range" : "72",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -5974,17 +5959,31 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasPart",
-      "en" : "has part",
-      "it" : "ha parte"
+      "IRI-based" : "hasTask",
+      "en" : "has task",
+      "it" : "ha come obiettivo"
     },
-    "superproperty" : [ "26" ],
-    "domain" : "3",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "superproperty" : [ "46" ],
+    "domain" : "2",
     "comment" : {
-      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
+      "undefined" : "A relation between roles and tasks, e.g. 'students have the duty of giving exams' (i.e. the Role 'student' hasTask the Task 'giving exams')."
     },
-    "attributes" : [ "object", "allValues", "external", "transitive" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "52"
+  }, {
+    "range" : "55",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "44",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "39",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "293"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasMember",
@@ -6032,7 +6031,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "45",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
       "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
@@ -6049,30 +6048,6 @@
     "domain" : "173",
     "attributes" : [ "object", "external" ],
     "id" : "297"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isIntroducedBy",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "44",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isIntroducedBy",
-      "en" : "is introduced by",
-      "it" : "è introdotto da"
-    },
-    "superproperty" : [ "26" ],
-    "domain" : "88",
-    "comment" : {
-      "undefined" : "A relation between a Description and a SocialAgent, e.g. a Constitutional Charter introduces the SocialAgent 'PresidentOfRepublic'."
-    },
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "298"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#actsThrough",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -6094,6 +6069,30 @@
     "domain" : "88",
     "comment" : {
       "undefined" : "The relation holding between a PhysicalAgent and a SocialAgent. In principle, a SocialAgent requires at least one PhysicalAgent in order to act, but this dependency can be 'delegated', e.g. a university can be acted for by a department, which is acted for by physical agents. AKA isActedBy"
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "298"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isIntroducedBy",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "44",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isIntroducedBy",
+      "en" : "is introduced by",
+      "it" : "è introdotto da"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "88",
+    "comment" : {
+      "undefined" : "A relation between a Description and a SocialAgent, e.g. a Constitutional Charter introduces the SocialAgent 'PresidentOfRepublic'."
     },
     "attributes" : [ "object", "someValues", "external" ],
     "id" : "299"
@@ -6153,6 +6152,11 @@
     "attributes" : [ "object", "someValues", "external" ],
     "id" : "306"
   }, {
+    "range" : "106",
+    "domain" : "301",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRegionFor",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "101",
@@ -6176,11 +6180,6 @@
       "undefined" : "A relation between entities and regions, e.g. 'the color of my car is red'."
     },
     "attributes" : [ "object", "allValues", "external" ],
-    "id" : "307"
-  }, {
-    "range" : "106",
-    "domain" : "301",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "308"
   }, {
     "range" : "73",
@@ -6190,7 +6189,7 @@
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConcretelyExpressedBy",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "287",
+    "range" : "283",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6230,7 +6229,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "23",
-    "subproperty" : [ "311", "172", "241", "278", "297" ],
+    "subproperty" : [ "311", "172", "241", "274", "297" ],
     "comment" : {
       "undefined" : "A relation between any entities, e.g.'brain is a part of the human body'."
     },
@@ -6262,6 +6261,32 @@
     "attributes" : [ "object", "external" ],
     "id" : "191"
   }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+    "inverse" : "174",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "6",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPart",
+      "en" : "has part",
+      "it" : "ha parte"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "6",
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
+    "comment" : {
+      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
+    },
+    "attributes" : [ "object", "allValues", "external", "transitive" ],
+    "id" : "314"
+  }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#classifies",
     "inverse" : "191",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -6286,11 +6311,6 @@
       "undefined" : "A relation between a Concept and an Entity, e.g. the Role 'student' classifies a Person 'John'."
     },
     "attributes" : [ "object", "allValues", "external" ],
-    "id" : "314"
-  }, {
-    "range" : "2",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "315"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy",
@@ -6317,39 +6337,13 @@
     "attributes" : [ "object", "someValues", "external" ],
     "id" : "316"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
-    "inverse" : "174",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "6",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasPart",
-      "en" : "has part",
-      "it" : "ha parte"
-    },
-    "superproperty" : [ "26" ],
+    "range" : "2",
     "domain" : "6",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
-    "comment" : {
-      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
-    },
-    "attributes" : [ "object", "allValues", "external", "transitive" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "317"
   }, {
-    "range" : "36",
-    "domain" : "100",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "318"
-  }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
+    "inverse" : "261",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "100",
     "annotations" : {
@@ -6371,7 +6365,7 @@
       "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
     },
     "attributes" : [ "object", "allValues", "external" ],
-    "id" : "319"
+    "id" : "318"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -6391,38 +6385,12 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "100",
-    "subproperty" : [ "321" ],
+    "subproperty" : [ "320" ],
     "comment" : {
       "undefined" : "A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'."
     },
     "attributes" : [ "object", "someValues", "external" ],
-    "id" : "320"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
-    "inverse" : "174",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "100",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasPart",
-      "en" : "has part",
-      "it" : "ha parte"
-    },
-    "superproperty" : [ "26" ],
-    "domain" : "100",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
-    "comment" : {
-      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
-    },
-    "attributes" : [ "object", "allValues", "external", "transitive" ],
-    "id" : "322"
+    "id" : "319"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -6447,6 +6415,57 @@
       "undefined" : "A relation between a Concept and an Entity, e.g. 'John is considered a typical rude man'; your last concert constitutes the achievement of a lifetime; '20-year-old means she's mature enough'."
     },
     "attributes" : [ "object", "allValues", "external" ],
+    "id" : "321"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
+    "inverse" : "282",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasLocation",
+      "en" : "has location",
+      "it" : "ha localizzazione"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "100",
+    "comment" : {
+      "undefined" : "A generic, relative spatial location, holding between any entities. E.g. 'the cat is on the mat', 'Omar is in Samarcanda', 'the wound is close to the femural artery'.\nFor 'absolute' locations, see SpaceRegion"
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "322"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+    "inverse" : "174",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "100",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPart",
+      "en" : "has part",
+      "it" : "ha parte"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "100",
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
+    "comment" : {
+      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
+    },
+    "attributes" : [ "object", "allValues", "external", "transitive" ],
     "id" : "323"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentIncludedIn",
@@ -6470,29 +6489,9 @@
     "attributes" : [ "object", "external" ],
     "id" : "324"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
-    "inverse" : "286",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "23",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasLocation",
-      "en" : "has location",
-      "it" : "ha localizzazione"
-    },
-    "superproperty" : [ "26" ],
+    "range" : "36",
     "domain" : "100",
-    "comment" : {
-      "undefined" : "A generic, relative spatial location, holding between any entities. E.g. 'the cat is on the mat', 'Omar is in Samarcanda', 'the wound is close to the femural artery'.\nFor 'absolute' locations, see SpaceRegion"
-    },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "325"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith",
@@ -6512,36 +6511,12 @@
       "undefined" : "associatedWith"
     },
     "domain" : "23",
-    "subproperty" : [ "326", "22", "37", "327", "184", "263", "328", "329", "281", "185", "43", "186", "330", "46", "331", "196", "285", "332", "89", "290", "333", "334", "103", "335", "336", "337", "338", "279", "224", "339", "131", "340", "341", "310", "342", "174", "191", "107", "343", "25", "245", "216", "344", "261", "83", "205", "286", "345", "346", "104", "347", "348", "349", "350", "351", "163", "352", "353" ],
+    "subproperty" : [ "326", "22", "37", "327", "184", "261", "328", "329", "278", "185", "43", "186", "330", "46", "331", "196", "281", "332", "89", "290", "333", "334", "103", "335", "336", "337", "338", "275", "224", "339", "131", "340", "341", "310", "342", "174", "191", "107", "343", "25", "245", "216", "344", "263", "83", "205", "282", "345", "346", "104", "347", "348", "349", "350", "351", "163", "352", "353" ],
     "comment" : {
       "undefined" : "A catch-all object property, useful for alignment and querying purposes."
     },
     "attributes" : [ "object", "symmetric", "external", "transitive" ],
     "id" : "26"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#realizes",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "39",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "realizes",
-      "en" : "realizes",
-      "it" : "realizza"
-    },
-    "superproperty" : [ "26" ],
-    "domain" : "287",
-    "comment" : {
-      "undefined" : "A relation between an information realization and an information object, e.g. the paper copy of the Italian Constitution realizes the text of the Constitution."
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "347"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isCharacterizedBy",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -6582,7 +6557,31 @@
       "it" : "realizza"
     },
     "superproperty" : [ "26" ],
-    "domain" : "287",
+    "domain" : "283",
+    "comment" : {
+      "undefined" : "A relation between an information realization and an information object, e.g. the paper copy of the Italian Constitution realizes the text of the Constitution."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "347"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#realizes",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "39",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "realizes",
+      "en" : "realizes",
+      "it" : "realizza"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "283",
     "comment" : {
       "undefined" : "A relation between an information realization and an information object, e.g. the paper copy of the Italian Constitution realizes the text of the Constitution."
     },
@@ -6637,7 +6636,7 @@
     "attributes" : [ "object", "someValues", "external" ],
     "id" : "357"
   }, {
-    "range" : "6",
+    "range" : "2",
     "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "358"
@@ -6652,10 +6651,10 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "360"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
-    "inverse" : "204",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+    "inverse" : "174",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "106",
+    "range" : "16",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -6665,16 +6664,17 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasTimeInterval",
-      "en" : "has time interval",
-      "it" : "ha intervallo temporale"
+      "IRI-based" : "hasPart",
+      "en" : "has part",
+      "it" : "ha parte"
     },
-    "superproperty" : [ "205" ],
+    "superproperty" : [ "26" ],
     "domain" : "16",
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
-      "en" : "The generic relation between events and time intervals."
+      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
-    "attributes" : [ "object", "someValues", "external" ],
+    "attributes" : [ "object", "allValues", "external", "transitive" ],
     "id" : "361"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSatisfiedBy",
@@ -6702,12 +6702,12 @@
     "attributes" : [ "object", "external" ],
     "id" : "353"
   }, {
-    "range" : "100",
+    "range" : "36",
     "domain" : "16",
     "attributes" : [ "object", "anonymous" ],
     "id" : "362"
   }, {
-    "range" : "2",
+    "range" : "6",
     "domain" : "9",
     "attributes" : [ "object", "anonymous" ],
     "id" : "363"
@@ -6782,7 +6782,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "38",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
       "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
@@ -6843,6 +6843,11 @@
     "attributes" : [ "object", "someValues", "external" ],
     "id" : "371"
   }, {
+    "range" : "55",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#satisfies",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "44",
@@ -6865,11 +6870,6 @@
       "undefined" : "A relation between a Situation and a Description, e.g. the execution of a Plan satisfies that plan."
     },
     "attributes" : [ "object", "someValues", "external" ],
-    "id" : "373"
-  }, {
-    "range" : "55",
-    "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "374"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesAgent",
@@ -6922,8 +6922,8 @@
     "attributes" : [ "object", "symmetric", "allValues", "external" ],
     "id" : "376"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+    "inverse" : "174",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "74",
     "annotations" : {
@@ -6935,16 +6935,17 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasConstituent",
-      "en" : "has constituent",
-      "it" : "ha costituente"
+      "IRI-based" : "hasPart",
+      "en" : "has part",
+      "it" : "ha parte"
     },
     "superproperty" : [ "26" ],
     "domain" : "74",
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
-      "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
+      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
-    "attributes" : [ "object", "allValues", "external" ],
+    "attributes" : [ "object", "allValues", "external", "transitive" ],
     "id" : "377"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
@@ -6966,7 +6967,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "2",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
       "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
@@ -7000,7 +7001,7 @@
     "id" : "379"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
+    "inverse" : "261",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "36",
     "annotations" : {
@@ -7024,10 +7025,10 @@
     "attributes" : [ "object", "allValues", "external" ],
     "id" : "380"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
-    "inverse" : "174",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
+    "inverse" : "107",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "36",
+    "range" : "74",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7037,18 +7038,43 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasPart",
-      "en" : "has part",
-      "it" : "ha parte"
+      "IRI-based" : "hasRegion",
+      "en" : "has region",
+      "it" : "ha attributo"
     },
     "superproperty" : [ "26" ],
     "domain" : "36",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "203", "382" ],
     "comment" : {
-      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
+      "undefined" : "A relation between entities and regions, e.g. 'the number of wheels of that truck is 12', 'the time of the experiment is August 9th, 2004', 'the whale has been localized at 34 degrees E, 20 degrees S'."
     },
-    "attributes" : [ "object", "allValues", "external", "transitive" ],
+    "attributes" : [ "object", "someValues", "external" ],
     "id" : "381"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
+    "inverse" : "261",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "74",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasConstituent",
+      "en" : "has constituent",
+      "it" : "ha costituente"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "74",
+    "comment" : {
+      "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
+    },
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "383"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#precedes",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -7073,37 +7099,11 @@
       "undefined" : "A relation between entities, expressing a 'sequence' schema. \nE.g. 'year 1999 precedes 2000', 'deciding what coffee to use' precedes 'preparing coffee', 'World War II follows World War I', 'in the Milan to Rome autoroute, Bologna precedes Florence', etc.\nIt can then be used between tasks, processes, time intervals, spatially locate objects, situations, etc. \nSubproperties can be defined in order to distinguish the different uses."
     },
     "attributes" : [ "object", "allValues", "external", "transitive" ],
-    "id" : "382"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
-    "inverse" : "174",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "74",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasPart",
-      "en" : "has part",
-      "it" : "ha parte"
-    },
-    "superproperty" : [ "26" ],
-    "domain" : "74",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
-    "comment" : {
-      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
-    },
-    "attributes" : [ "object", "allValues", "external", "transitive" ],
-    "id" : "383"
+    "id" : "384"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPreconditionOf",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "385",
+    "range" : "386",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7118,7 +7118,7 @@
       "it" : "è precondizione di"
     },
     "superproperty" : [ "130" ],
-    "domain" : "384",
+    "domain" : "385",
     "comment" : {
       "undefined" : "Direct precedence applied to situations. \nE.g., 'claiming to find nuclear weapons in a foreign country is a precondition to declare war against it'."
     },
@@ -7151,7 +7151,7 @@
     "id" : "334"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesRole",
-    "inverse" : "282",
+    "inverse" : "279",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "2",
     "annotations" : {
@@ -7173,10 +7173,10 @@
       "undefined" : "A relation between a description and a role, e.g. the recipe for a cake defines the role 'ingredient'."
     },
     "attributes" : [ "object", "someValues", "external" ],
-    "id" : "387"
+    "id" : "388"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask",
-    "inverse" : "283",
+    "inverse" : "280",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "72",
     "annotations" : {
@@ -7198,12 +7198,12 @@
       "undefined" : "A relation between a description and a task, e.g. the recipe for a cake defines the task 'boil'."
     },
     "attributes" : [ "object", "someValues", "external" ],
-    "id" : "388"
+    "id" : "389"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
-    "inverse" : "107",
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+    "inverse" : "174",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "74",
+    "range" : "36",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7213,18 +7213,18 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "hasRegion",
-      "en" : "has region",
-      "it" : "ha attributo"
+      "IRI-based" : "hasPart",
+      "en" : "has part",
+      "it" : "ha parte"
     },
     "superproperty" : [ "26" ],
     "domain" : "36",
-    "subproperty" : [ "203", "390" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
-      "undefined" : "A relation between entities and regions, e.g. 'the number of wheels of that truck is 12', 'the time of the experiment is August 9th, 2004', 'the whale has been localized at 34 degrees E, 20 degrees S'."
+      "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "389"
+    "attributes" : [ "object", "allValues", "external", "transitive" ],
+    "id" : "390"
   }, {
     "range" : "38",
     "domain" : "101",
@@ -7250,7 +7250,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "101",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
       "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
@@ -7298,7 +7298,7 @@
       "en" : "has component",
       "it" : "ha componente"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "213",
     "comment" : {
       "undefined" : "The hasPart relation without transitivity, holding between an Object (the system) and another (the component), and assuming a Design that structures the Object."
@@ -7340,7 +7340,7 @@
     "superproperty" : [ "174" ],
     "domain" : "119",
     "attributes" : [ "object", "external" ],
-    "id" : "278"
+    "id" : "274"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesTime",
     "inverse" : "27",
@@ -7393,7 +7393,7 @@
     "id" : "397"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask",
-    "inverse" : "283",
+    "inverse" : "280",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "72",
     "annotations" : {
@@ -7419,7 +7419,7 @@
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "19",
+    "range" : "24",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7444,7 +7444,7 @@
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "24",
+    "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -7468,7 +7468,7 @@
     "id" : "400"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesRole",
-    "inverse" : "282",
+    "inverse" : "279",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "2",
     "annotations" : {
@@ -7533,7 +7533,7 @@
       "en" : "has component",
       "it" : "ha componente"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "404",
     "comment" : {
       "undefined" : "The hasPart relation without transitivity, holding between an Object (the system) and another (the component), and assuming a Design that structures the Object."
@@ -7639,32 +7639,7 @@
     "id" : "352"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "106",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasConstituent",
-      "en" : "has constituent",
-      "it" : "ha costituente"
-    },
-    "superproperty" : [ "26" ],
-    "domain" : "386",
-    "comment" : {
-      "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
-    },
-    "attributes" : [ "object", "someValues", "external" ],
-    "id" : "412"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
+    "inverse" : "261",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "73",
     "annotations" : {
@@ -7681,7 +7656,32 @@
       "it" : "ha costituente"
     },
     "superproperty" : [ "26" ],
-    "domain" : "386",
+    "domain" : "387",
+    "comment" : {
+      "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
+    },
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "412"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
+    "inverse" : "261",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "106",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasConstituent",
+      "en" : "has constituent",
+      "it" : "ha costituente"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "387",
     "comment" : {
       "undefined" : "'Constituency' depends on some layering of  the world described by the ontology. For example, scientific granularities (e.g. body-organ-tissue-cell) or ontological 'strata' (e.g. social-mental-biological-physical) are  typical layerings. \nIntuitively, a constituent is a part belonging to a lower layer. Since layering is actually a partition of the world described by the ontology, constituents are not properly classified as parts, although this kinship can be intuitive for common sense.\nA desirable advantage of this distinction is that we are able to talk e.g. of physical constituents of non-physical objects (e.g. systems), while this is not possible in terms of parts.\nExample of are the persons constituting a social system, the molecules constituting a person, the atoms constituting a river, etc. \nIn all these examples, we notice a typical discontinuity between the constituted and the constituent object: e.g. a social system is conceptualized at a different layer from the persons that constitute it, a person is conceptualized at a different layer from the molecules that constitute them, and a river is conceptualized at a different layer from the atoms that constitute it."
     },
@@ -7707,7 +7707,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "72",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
       "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
@@ -7811,17 +7811,6 @@
     "attributes" : [ "object", "external" ],
     "id" : "303"
   }, {
-    "iri" : "http://www.moonshot.ceo/ontology/doc",
-    "baseIri" : "http://www.moonshot.ceo/ontology",
-    "range" : "4",
-    "label" : {
-      "IRI-based" : "doc",
-      "en" : "has Doc"
-    },
-    "domain" : "252",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "417"
-  }, {
     "iri" : "http://purl.org/dc/terms/valid",
     "baseIri" : "http://purl.org/dc/terms",
     "range" : "90",
@@ -7840,10 +7829,21 @@
       "IRI-based" : "valid",
       "en" : "Date Valid"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date (often a range) of validity of a resource."
     },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "417"
+  }, {
+    "iri" : "http://www.moonshot.ceo/ontology/doc",
+    "baseIri" : "http://www.moonshot.ceo/ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "doc",
+      "en" : "has Doc"
+    },
+    "domain" : "252",
     "attributes" : [ "external", "datatype" ],
     "id" : "418"
   }, {
@@ -7890,7 +7890,7 @@
       "IRI-based" : "created",
       "en" : "Date Created"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date of creation of the resource."
     },
@@ -7927,7 +7927,7 @@
       "IRI-based" : "dateAccepted",
       "en" : "Date Accepted"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date of acceptance of the resource."
     },
@@ -8000,9 +8000,9 @@
       "en" : "is defined in",
       "it" : "è definito in"
     },
-    "superproperty" : [ "281" ],
+    "superproperty" : [ "278" ],
     "domain" : "3",
-    "subproperty" : [ "282", "283" ],
+    "subproperty" : [ "279", "280" ],
     "comment" : {
       "undefined" : "A relation between a Description and a Concept, e.g. a Workflow for a governmental Organization defines the Role 'officer', or 'the Italian Traffic Law defines the role Vehicle'."
     },
@@ -8133,7 +8133,7 @@
     "id" : "345"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
-    "inverse" : "261",
+    "inverse" : "263",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "100",
     "annotations" : {
@@ -8151,7 +8151,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "16",
-    "subproperty" : [ "262" ],
+    "subproperty" : [ "264" ],
     "comment" : {
       "undefined" : "A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'."
     },
@@ -8211,7 +8211,7 @@
       "IRI-based" : "issued",
       "en" : "Date Issued"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date of formal issuance of the resource."
     },
@@ -8314,7 +8314,7 @@
       "undefined" : "A more generic relation holding between a Description and a Concept. In order to be used, a Concept must be previously definedIn another Description"
     },
     "attributes" : [ "object", "external" ],
-    "id" : "281"
+    "id" : "278"
   }, {
     "iri" : "http://www.moonshot.ceo/isMemberOfArea",
     "baseIri" : "http://www.moonshot.ceo",
@@ -8392,7 +8392,7 @@
       "IRI-based" : "identifier",
       "en" : "Identifier"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "An unambiguous reference to the resource within a given context."
     },
@@ -8406,10 +8406,10 @@
     "label" : {
       "IRI-based" : "hasArea"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "119",
     "attributes" : [ "object", "external" ],
-    "id" : "266"
+    "id" : "287"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith",
     "inverse" : "336",
@@ -8480,12 +8480,12 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "23",
-    "subproperty" : [ "265", "266", "267", "268", "269" ],
+    "subproperty" : [ "286", "287", "273", "288", "289" ],
     "comment" : {
       "undefined" : "A schematic relation between any entities, e.g. 'the human body has a brain as part', '20th century contains year 1923', 'World War II includes the Pearl Harbour event'.\nSubproperties and restrictions can be used to specialize hasPart for objects, events, etc."
     },
     "attributes" : [ "object", "external", "transitive" ],
-    "id" : "279"
+    "id" : "275"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTaskOf",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -8511,8 +8511,31 @@
     "attributes" : [ "object", "external" ],
     "id" : "53"
   }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameterDataValue",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "248",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasParameterDataValue",
+      "en" : "has parameter data value",
+      "it" : "ha valore"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Parametrizes values from a datatype. For example, a Parameter MinimumAgeForDriving hasParameterDataValue 18 on datatype xsd:int, in the Italian traffic code. In this example, MinimumAgeForDriving isDefinedIn the Norm ItalianTrafficCodeAgeDriving.\nMore complex parametrization requires workarounds. E.g. AgeRangeForDrugUsage could parametrize data value: 14 to 50 on the datatype: xsd:int. Since complex datatypes are not allowed in OWL1.0, a solution to this can only work by creating two 'sub-parameters': MinimumAgeForDrugUsage (that hasParameterDataValue 14) and MaximumAgeForDrugUsage (that hasParameterDataValue 50), which are components of (cf. hasComponent) the main Parameter AgeRangeForDrugUsage.\nOrdering on subparameters can be created by using or specializing the object property 'precedes'."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "429"
+  }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesRole",
-    "inverse" : "282",
+    "inverse" : "279",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "2",
     "annotations" : {
@@ -8535,29 +8558,6 @@
       "undefined" : "A relation between a description and a role, e.g. the recipe for a cake defines the role 'ingredient'."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "429"
-  }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameterDataValue",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "248",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasParameterDataValue",
-      "en" : "has parameter data value",
-      "it" : "ha valore"
-    },
-    "domain" : "6",
-    "comment" : {
-      "undefined" : "Parametrizes values from a datatype. For example, a Parameter MinimumAgeForDriving hasParameterDataValue 18 on datatype xsd:int, in the Italian traffic code. In this example, MinimumAgeForDriving isDefinedIn the Norm ItalianTrafficCodeAgeDriving.\nMore complex parametrization requires workarounds. E.g. AgeRangeForDrugUsage could parametrize data value: 14 to 50 on the datatype: xsd:int. Since complex datatypes are not allowed in OWL1.0, a solution to this can only work by creating two 'sub-parameters': MinimumAgeForDrugUsage (that hasParameterDataValue 14) and MaximumAgeForDrugUsage (that hasParameterDataValue 50), which are components of (cf. hasComponent) the main Parameter AgeRangeForDrugUsage.\nOrdering on subparameters can be created by using or specializing the object property 'precedes'."
-    },
-    "attributes" : [ "external", "datatype" ],
     "id" : "430"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
@@ -8579,7 +8579,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "23",
-    "subproperty" : [ "203", "390" ],
+    "subproperty" : [ "203", "382" ],
     "comment" : {
       "undefined" : "A relation between entities and regions, e.g. 'the number of wheels of that truck is 12', 'the time of the experiment is August 9th, 2004', 'the whale has been localized at 34 degrees E, 20 degrees S'."
     },
@@ -8608,7 +8608,7 @@
       "undefined" : "A relation between a description and a task, e.g. the task 'boil' is defined in a recipe for a cake."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "283"
+    "id" : "280"
   }, {
     "iri" : "http://www.moonshot.ceo/ontology/url",
     "baseIri" : "http://www.moonshot.ceo/ontology",
@@ -8628,10 +8628,10 @@
     "label" : {
       "IRI-based" : "hasKet"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "233",
     "attributes" : [ "object", "external" ],
-    "id" : "265"
+    "id" : "286"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#specializes",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -8735,7 +8735,7 @@
       "IRI-based" : "available",
       "en" : "Date Available"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date that the resource became or will become available."
     },
@@ -8775,13 +8775,13 @@
       "en" : "has component",
       "it" : "ha componente"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "23",
     "comment" : {
       "undefined" : "The hasPart relation without transitivity, holding between an Object (the system) and another (the component), and assuming a Design that structures the Object."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "268"
+    "id" : "288"
   }, {
     "range" : "44",
     "domain" : "211",
@@ -8872,7 +8872,7 @@
       "IRI-based" : "dateSubmitted",
       "en" : "Date Submitted"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date of submission of the resource."
     },
@@ -8955,7 +8955,7 @@
     "id" : "452"
   }, {
     "range" : "74",
-    "domain" : "386",
+    "domain" : "387",
     "attributes" : [ "object", "anonymous" ],
     "id" : "453"
   }, {
@@ -8978,7 +8978,7 @@
     },
     "superproperty" : [ "196" ],
     "domain" : "44",
-    "subproperty" : [ "429", "454" ],
+    "subproperty" : [ "430", "454" ],
     "comment" : {
       "undefined" : "A relation between a Description and a Concept, e.g. a Workflow for a governmental Organization defines the Role 'officer', or 'the Italian Traffic Law defines the role Vehicle'."
     },
@@ -8991,7 +8991,7 @@
     "id" : "455"
   }, {
     "range" : "44",
-    "domain" : "277",
+    "domain" : "272",
     "attributes" : [ "object", "anonymous" ],
     "id" : "456"
   }, {
@@ -9028,7 +9028,7 @@
       "it" : "esprime concretamente"
     },
     "superproperty" : [ "26" ],
-    "domain" : "287",
+    "domain" : "283",
     "comment" : {
       "undefined" : "A relation between an InformationRealization and a Description, e.g. 'the printout of the Italian Constitution concretelyExpresses the Italian Constitution'. It should be supplied also with a rule stating that the InformationRealization realizes an InformationObject that expresses the Description"
     },
@@ -9170,7 +9170,7 @@
       "undefined" : "A relation to represent a (past, present or future) TimeInterval at which an Entity is observable.\nIn order to encode a specific time, a data value should be related to the TimeInterval. \nAn alternative way of representing time is the datatype property: hasIntervalDate"
     },
     "attributes" : [ "object", "external" ],
-    "id" : "390"
+    "id" : "382"
   }, {
     "range" : "23",
     "domain" : "129",
@@ -9204,7 +9204,7 @@
       "it" : "realizza informazione che si riferisce a a"
     },
     "superproperty" : [ "26" ],
-    "domain" : "287",
+    "domain" : "283",
     "comment" : {
       "undefined" : "The relation between entities and information realizations, e.g. between Italy and a paper copy of the text of the Italian Constitution."
     },
@@ -9229,12 +9229,12 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "100",
-    "subproperty" : [ "321" ],
+    "subproperty" : [ "320" ],
     "comment" : {
       "undefined" : "A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "261"
+    "id" : "263"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentInvolvedIn",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -9252,18 +9252,18 @@
       "en" : "is agent involved in",
       "it" : "è un agente coinvolto in"
     },
-    "superproperty" : [ "261" ],
+    "superproperty" : [ "263" ],
     "domain" : "56",
     "comment" : {
       "undefined" : "Agent participation."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "321"
+    "id" : "320"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isReferenceOfInformationRealizedBy",
     "inverse" : "344",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "287",
+    "range" : "283",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -9350,7 +9350,7 @@
     "id" : "475"
   }, {
     "range" : "60",
-    "domain" : "287",
+    "domain" : "283",
     "attributes" : [ "object", "anonymous" ],
     "id" : "476"
   }, {
@@ -9377,7 +9377,7 @@
       "IRI-based" : "dateCopyrighted",
       "en" : "Date Copyrighted"
     },
-    "domain" : "34",
+    "domain" : "32",
     "comment" : {
       "en" : "Date of copyright of the resource."
     },
@@ -9457,7 +9457,7 @@
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRealizedBy",
     "inverse" : "347",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "287",
+    "range" : "283",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
@@ -9480,7 +9480,7 @@
     "id" : "331"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
-    "inverse" : "263",
+    "inverse" : "261",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "23",
     "annotations" : {
@@ -9505,7 +9505,7 @@
     "id" : "332"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#involvesAgent",
-    "inverse" : "321",
+    "inverse" : "320",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "56",
     "annotations" : {
@@ -9527,7 +9527,7 @@
       "undefined" : "Agent participation."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "262"
+    "id" : "264"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo",
     "inverse" : "339",
@@ -9554,7 +9554,7 @@
     "id" : "339"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask",
-    "inverse" : "283",
+    "inverse" : "280",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "72",
     "annotations" : {
@@ -9597,7 +9597,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "162",
-    "subproperty" : [ "311", "172", "241", "278", "297" ],
+    "subproperty" : [ "311", "172", "241", "274", "297" ],
     "comment" : {
       "undefined" : "A relation between any entities, e.g.'brain is a part of the human body'."
     },
@@ -9622,30 +9622,30 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "119",
-    "subproperty" : [ "311", "172", "241", "278", "297" ],
+    "subproperty" : [ "311", "172", "241", "274", "297" ],
     "comment" : {
       "undefined" : "A relation between any entities, e.g.'brain is a part of the human body'."
     },
     "attributes" : [ "object", "someValues", "external", "transitive" ],
     "id" : "484"
   }, {
-    "range" : "16",
+    "range" : "36",
     "domain" : "129",
     "attributes" : [ "object", "anonymous" ],
     "id" : "485"
   }, {
-    "range" : "36",
+    "range" : "100",
     "domain" : "129",
     "attributes" : [ "object", "anonymous" ],
     "id" : "486"
   }, {
-    "range" : "100",
+    "range" : "16",
     "domain" : "129",
     "attributes" : [ "object", "anonymous" ],
     "id" : "487"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
-    "inverse" : "261",
+    "inverse" : "263",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "56",
     "annotations" : {
@@ -9663,19 +9663,19 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "15",
-    "subproperty" : [ "262" ],
+    "subproperty" : [ "264" ],
     "comment" : {
       "undefined" : "A relation between an object and a process, e.g. 'John took part in the discussion', 'a large mass of snow fell during the avalanche', or 'a cook, some sugar, flour, etc. are all present in the cooking of a cake'."
     },
     "attributes" : [ "object", "someValues", "external" ],
     "id" : "488"
   }, {
-    "range" : "106",
+    "range" : "73",
     "domain" : "188",
     "attributes" : [ "object", "anonymous" ],
     "id" : "489"
   }, {
-    "range" : "73",
+    "range" : "106",
     "domain" : "188",
     "attributes" : [ "object", "anonymous" ],
     "id" : "490"
@@ -9724,7 +9724,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "222",
-    "subproperty" : [ "311", "172", "241", "278", "297" ],
+    "subproperty" : [ "311", "172", "241", "274", "297" ],
     "comment" : {
       "undefined" : "A relation between any entities, e.g.'brain is a part of the human body'."
     },
@@ -9749,7 +9749,7 @@
     },
     "superproperty" : [ "26" ],
     "domain" : "173",
-    "subproperty" : [ "311", "172", "241", "278", "297" ],
+    "subproperty" : [ "311", "172", "241", "274", "297" ],
     "comment" : {
       "undefined" : "A relation between any entities, e.g.'brain is a part of the human body'."
     },
@@ -9763,10 +9763,35 @@
     "label" : {
       "IRI-based" : "hasCell"
     },
-    "superproperty" : [ "279" ],
+    "superproperty" : [ "275" ],
     "domain" : "226",
     "attributes" : [ "object", "external" ],
-    "id" : "269"
+    "id" : "289"
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "range" : "23",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isSettingFor",
+      "en" : "is setting for",
+      "it" : "include"
+    },
+    "superproperty" : [ "26" ],
+    "domain" : "24",
+    "subproperty" : [ "303", "304", "305" ],
+    "comment" : {
+      "undefined" : "A relation between situations and entities, e.g. 'this morning I've prepared my coffee with a new fantastic Arabica', i.e.: the preparation of my coffee this morning is the setting for (an amount of) a new fantastic Arabica."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "25"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesObject",
     "inverse" : "29",
@@ -9795,31 +9820,6 @@
     "attributes" : [ "object", "external" ],
     "id" : "305"
   }, {
-    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor",
-    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-    "range" : "23",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isSettingFor",
-      "en" : "is setting for",
-      "it" : "include"
-    },
-    "superproperty" : [ "26" ],
-    "domain" : "24",
-    "subproperty" : [ "303", "304", "305" ],
-    "comment" : {
-      "undefined" : "A relation between situations and entities, e.g. 'this morning I've prepared my coffee with a new fantastic Arabica', i.e.: the preparation of my coffee this morning is the setting for (an amount of) a new fantastic Arabica."
-    },
-    "attributes" : [ "object", "external" ],
-    "id" : "25"
-  }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRoleDefinedIn",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
     "range" : "44",
@@ -9842,7 +9842,7 @@
       "undefined" : "A relation between a description and a role, e.g. the role 'Ingredient' is defined in the recipe for a cake."
     },
     "attributes" : [ "object", "external" ],
-    "id" : "282"
+    "id" : "279"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf",
     "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
@@ -9867,7 +9867,7 @@
       "undefined" : "A generic, relative localization, holding between any entities. E.g. 'Rome is the seat of the Pope', 'the liver is the location of the tumor'.\nFor 'absolute' locations, see SpaceRegion"
     },
     "attributes" : [ "object", "external" ],
-    "id" : "286"
+    "id" : "282"
   }, {
     "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#introduces",
     "inverse" : "184",
